@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 import os
 
-BOT_TOKEN = os.getenv("8964633650:AAGJGCC-ARRqqBMji5L8oQByqcrq2IRE_9M")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 async def usage(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("ربات وصل شد ✅")
